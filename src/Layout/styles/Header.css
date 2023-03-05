@@ -6,7 +6,7 @@
 }
 .header_img {
     max-width: 350px;
-    margin: 10px;
+    margin-left: 10px;
 }
 .header_black {
     position: absolute;
@@ -25,7 +25,7 @@
     border-radius: 50%;
     bottom: 0px;
     right: 10px;
-    transform: translate(-50%);
+    transform: translateX(-50%);
 }
 .header_circle-int {
     position: absolute;
@@ -36,5 +36,5 @@
     border-radius: 50%;
     bottom: 7.75px;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
 }

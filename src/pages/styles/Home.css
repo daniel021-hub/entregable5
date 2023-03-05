@@ -6,7 +6,7 @@
     min-height: calc(100vh - 120px);
 }
 
-.home.img {
+.home_img {
     padding: 10px;
     max-width: 450px;
 }

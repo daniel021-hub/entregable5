@@ -1,6 +1,33 @@
+.pokedex_header {
+    padding: 0 20px;
+}
+
 .pokedex_form {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
     flex-wrap: wrap;
+}
+
+.pokedex_input {
+    border: none;
+    box-shadow: 0 3px 9px #00000026;
+    padding: 10px 10px;
+}
+
+.pokedex_btn {
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    background-color: var(--color-red);
+    cursor: pointer
+}
+
+.pokedex_select {
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    box-shadow: 0 3px 9px #00000026;
+    border-radius: 10px;
+    padding: 10px 20px;
 }
